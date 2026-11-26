@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shaun.wallpaper-rotator",
+  "name": "Wallpaper Rotation",
+  "version": "1.0.0",
+  "author": "Shaun Gordon",
+  "license": "MIT",
+  "description": "Bar widget and panel for the Omarchy wallpaper rotation timer: set the interval in minutes, pause/resume, and skip to the next wallpaper.",
+  "kinds": ["bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Wallpaper Rotation",
+    "description": "Control wallpaper rotation interval and state",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
